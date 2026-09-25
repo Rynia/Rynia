@@ -4,6 +4,12 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,9,20&height=180&section=header&text=RYNIA%20STUDIOS&fontSize=42&fontColor=ffffff&animation=fadeIn" width="100%" />
 </p>
 
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Rynia&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile Views" />
+  <img src="https://img.shields.io/github/followers/Rynia?label=Followers&style=for-the-badge&color=238636&logo=github" alt="Followers" />
+  <img src="https://img.shields.io/badge/Focus-Mobile%20OS%20%26%20Local--First-8A2BE2?style=for-the-badge" alt="Focus" />
+</p>
+
 ### 👨‍💻 About Me
 * 🏛️ **Founder & Lead Engineer** at **[Rynia Studios](https://ryniastudios.netlify.app)**.
 * 🥦 Architecting **[KALANLA](https://github.com/Rynia/KALANLA)** — a local-first, zero-waste Kitchen OS built with React Native & Expo.
@@ -34,11 +40,10 @@
 
 ---
 
-### 📊 Engineering Telemetry
+### 📊 Engineering Telemetry & Contributions
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Rynia&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Rynia's GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rynia&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Languages" />
+  <img src="https://streak-stats.demolab.com/?user=Rynia&theme=dark&hide_border=true&background=0D1117" alt="Rynia's GitHub Streak & Contribution Stats" />
 </p>
 
 ---

@@ -47,7 +47,7 @@ Modern software is bloated, invasive, and hostile to user sovereignty. At **[Ryn
 | System | Domain | Stack | Status | Repository / Showcase |
 |:---|:---|:---|:---|:---|
 | **[KALANLA](https://github.com/Rynia/KALANLA)** | Smart Kitchen OS & Waste Telemetry | React Native, TypeScript, Expo | 🟢 Closed Beta | [Web Showcase](https://rynia.github.io/KALANLA/) |
-| **receipt-renderer** | Deterministic 9:16 Retro Thermal Receipt Engine | TypeScript, Canvas, SVG | 🛠️ In Active Development | [RyniaStudios/receipt-renderer](https://github.com/RyniaStudios) |
+| **[receipt-renderer](https://github.com/Rynia/receipt-renderer)** | Deterministic 9:16 Retro Thermal Receipt Engine | TypeScript, Canvas, SVG | 🟢 v1.0.0 Live | [Rynia/receipt-renderer](https://github.com/Rynia/receipt-renderer) |
 | **expo-release-guard** | Pre-flight Store Safety & Integrity CLI | Node.js, TypeScript, AST | 📋 RFC / Scaffolding | [RyniaStudios/expo-release-guard](https://github.com/RyniaStudios) |
 | **[Rynia Studios Site](https://github.com/Rynia/RyniaStudioSite)** | Immersive 3D Interactive Showcase | Three.js, GSAP, Lenis, Vite | 🟢 Live | [ryniastudios.netlify.app](https://ryniastudios.netlify.app) |
 

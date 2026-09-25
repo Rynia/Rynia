@@ -5,9 +5,10 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Rynia&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile Views" />
+  <a href="https://github.com/Rynia/KALANLA/releases"><img src="https://img.shields.io/badge/Flagship_Release-KALANLA_v1.0.0-10B981?style=for-the-badge&logo=github&logoColor=white" alt="Latest Release" /></a>
+  <img src="https://img.shields.io/badge/Architecture-Local--First-F59E0B?style=for-the-badge" alt="Local First" />
+  <img src="https://img.shields.io/badge/Focus-Mobile%20OS%20%26%20Telemetry-8A2BE2?style=for-the-badge" alt="Focus" />
   <img src="https://img.shields.io/github/followers/Rynia?label=Followers&style=for-the-badge&color=238636&logo=github" alt="Followers" />
-  <img src="https://img.shields.io/badge/Focus-Mobile%20OS%20%26%20Local--First-8A2BE2?style=for-the-badge" alt="Focus" />
 </p>
 
 ### 👨‍💻 About Me

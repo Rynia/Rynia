@@ -1,6 +1,6 @@
 # ⚔️ Muharrem Özmen (@Rynia)
 ### *Independent Systems Craftsman & Software Architect*
-**Building the Local-First Home OS — one deterministic system at a time.**
+**I build small, zero-dependency systems primitives from real products I ship.**
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,9,20&height=180&section=header&text=RYNIA%20SYSTEMS&fontSize=42&fontColor=ffffff&animation=fadeIn" width="100%" />
@@ -9,52 +9,76 @@
 <p align="center">
   <a href="https://github.com/Rynia/KALANLA/releases"><img src="https://img.shields.io/badge/Flagship_Release-KALANLA_v1.0.0-10B981?style=for-the-badge&logo=github&logoColor=white" alt="Latest Release" /></a>
   <img src="https://img.shields.io/badge/Architecture-Local--First-F59E0B?style=for-the-badge" alt="Local First" />
-  <img src="https://img.shields.io/badge/Design-Deterministic%20Systems-8A2BE2?style=for-the-badge" alt="Deterministic" />
+  <img src="https://img.shields.io/badge/Dependencies-Zero_npm-007ACC?style=for-the-badge" alt="Zero Dependencies" />
   <img src="https://img.shields.io/github/followers/Rynia?label=Followers&style=for-the-badge&color=238636&logo=github" alt="Followers" />
 </p>
 
 ---
 
-## 🏛️ The Rynia Engineering Thesis
+## 🔭 Why Follow?
 
-Modern software is bloated, invasive, and hostile to user sovereignty. At **[Rynia Studios](https://github.com/RyniaStudios)**, I architect an alternative:
+I design and maintain production-grade, zero-dependency TypeScript primitives extracted directly from real applications I build and ship:
 
-1. 🔒 **Local-First by Default:** Data strictly belongs to the user's physical device. No mandatory cloud accounts, zero telemetry tracking, zero vendor lock-in.
-2. ⚡ **Deterministic Predictability:** The exact same input produces the exact same result. No black-box network latency; pure offline reliability.
-3. 🌫️ **Ambient & Quiet:** Technology that quietly eliminates daily household friction without begging for human attention.
+* 🔒 **Zero Dependencies:** Audited, lightweight primitives with `0 npm runtime dependencies`.
+* 🛡️ **No Abandoned Side-Projects:** Every open-source package is battle-tested in and actively maintained by production apps like **[KALANLA](https://github.com/Rynia/KALANLA)**.
+* ⚡ **Local-First & Ambient:** Strict data sovereignty, deterministic predictability, and quiet ambient UX.
 
-```
-┌────────────────────────────────────────────────────────┐
-│                   AMBIENT INTERFACES                   │
-│   (Three.js Spatial Viewports • Physical UI Shaders)   │
-└──────────────────────────┬─────────────────────────────┘
-                           │ Reactive Bridges
-┌──────────────────────────▼─────────────────────────────┐
-│                 LOCAL-FIRST OS RUNTIMES                │
-│       KALANLA (Zero-Waste Engine) • Embedded SQLite    │
-└──────────────────────────┬─────────────────────────────┘
-                           │ Deterministic Primitives
-┌──────────────────────────▼─────────────────────────────┐
-│                 OPEN SOURCE FOUNDATIONS                │
-│    receipt-renderer • expo-release-guard • local-kernel │
-└────────────────────────────────────────────────────────┘
+> *[👉 Follow @Rynia](https://github.com/Rynia) to catch the next systems primitive as it ships.*
+
+---
+
+## 🏛️ System Architecture
+
+```mermaid
+flowchart LR
+    subgraph OSS [Zero-Dependency Primitives]
+        direction TB
+        L[local-first-kernel<br/><i>v1.0.0 • EventLog Engine</i>]
+        R[receipt-renderer<br/><i>v1.0.0 • 9:16 Thermal AST</i>]
+        G[expo-release-guard<br/><i>v1.0.0 • Store Safety CLI</i>]
+    end
+
+    subgraph Production [Shipped Products]
+        K[KALANLA<br/><b>Kitchen OS</b>]
+        W[Rynia Studios<br/><b>3D Spatial Showcase</b>]
+    end
+
+    subgraph Adoption [Adoption & Users]
+        DEV[Open Source Developers<br/><i>npm • GitHub</i>]
+        APP[Google Play Users<br/><i>Closed Beta</i>]
+    end
+
+    L -->|State & Undo| K
+    R -->|Thermal Telemetry| K
+    G -->|Pre-flight Audit| K
+    K --> APP
+    L --> DEV
+    R --> DEV
+    G --> DEV
 ```
 
 ---
 
-## 🚀 Active Systems & Open Source Ecosystem
+## 🚀 Open Source Foundations
 
-| System | Domain | Stack | Status | Repository / Showcase |
+| Primitive | Role & Core Innovation | Stack | Status | Repository |
 |:---|:---|:---|:---|:---|
-| **[KALANLA](https://github.com/Rynia/KALANLA)** | Smart Kitchen OS & Waste Telemetry | React Native, TypeScript, Expo | 🟢 Closed Beta | [Web Showcase](https://rynia.github.io/KALANLA/) |
-| **[receipt-renderer](https://github.com/Rynia/receipt-renderer)** | Deterministic 9:16 Retro Thermal Receipt Engine | TypeScript, Canvas, SVG | 🟢 v1.0.0 Live | [Rynia/receipt-renderer](https://github.com/Rynia/receipt-renderer) |
-| **[expo-release-guard](https://github.com/Rynia/expo-release-guard)** | Pre-flight Store Safety & Integrity CLI | Node.js, TypeScript, AST | 🟢 v1.0.0 Live | [Rynia/expo-release-guard](https://github.com/Rynia/expo-release-guard) |
-| **[local-first-kernel](https://github.com/Rynia/local-first-kernel)** | Tiny Deterministic Local-First State Kernel | TypeScript, EventLog | 🟢 v1.0.0 Live | [Rynia/local-first-kernel](https://github.com/Rynia/local-first-kernel) |
-| **[Rynia Studios Site](https://github.com/Rynia/RyniaStudioSite)** | Immersive 3D Interactive Showcase | Three.js, GSAP, Lenis, Vite | 🟢 Live | [ryniastudios.netlify.app](https://ryniastudios.netlify.app) |
+| **[local-first-kernel](https://github.com/Rynia/local-first-kernel)** | Append-only reactive event micro-kernel, schema migrations & deterministic undo/redo. | TypeScript, EventLog | 🟢 `v1.0.0` | [github.com/Rynia/local-first-kernel](https://github.com/Rynia/local-first-kernel) |
+| **[expo-release-guard](https://github.com/Rynia/expo-release-guard)** | Pre-flight zero-rejection store safety CLI: Apple Privacy Manifests, permissions, EAS profiles. | Node.js, TypeScript, AST | 🟢 `v1.0.0` | [github.com/Rynia/expo-release-guard](https://github.com/Rynia/expo-release-guard) |
+| **[receipt-renderer](https://github.com/Rynia/receipt-renderer)** | Zero-dependency 9:16 retro thermal receipt AST engine with dual SVG & terminal ASCII output. | TypeScript, Canvas, SVG | 🟢 `v1.0.0` | [github.com/Rynia/receipt-renderer](https://github.com/Rynia/receipt-renderer) |
 
 ---
 
-## 🛠️ Stack & Tooling
+## 📱 Shipped Products & Spatial Viewports
+
+| Product | Domain & Vision | Stack | Status | Showcase |
+|:---|:---|:---|:---|:---|
+| **[KALANLA](https://github.com/Rynia/KALANLA)** | Smart Kitchen OS eliminating food waste through deterministic shelf-life telemetry and recipes. | React Native, Expo, SQLite | 🟢 Closed Beta | [rynia.github.io/KALANLA](https://rynia.github.io/KALANLA/) |
+| **[Rynia Studios](https://github.com/Rynia/RyniaStudioSite)** | Immersive 3D WebGL laboratory for ambient software and interactive viewport shaders. | Three.js, GSAP, Lenis, Vite | 🟢 Live | [ryniastudios.netlify.app](https://ryniastudios.netlify.app) |
+
+---
+
+## 🛠️ Stack & Craftsmanship
 
 <p align="left">
   <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
@@ -67,11 +91,19 @@ Modern software is bloated, invasive, and hostile to user sovereignty. At **[Ryn
 
 ---
 
-## 📊 Telemetry & Contributions
+## 📊 Live Activity & Telemetry
 
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=Rynia&theme=dark&hide_border=true&background=0D1117" alt="Rynia's GitHub Streak & Contribution Stats" />
 </p>
+
+```text
+2026 ROADMAP & MILESTONES:
+├─ KALANLA            ─── [In Closed Testing] Google Play 14-day Verification Wave
+├─ expo-release-guard ─── [Target] awesome-react-native Development Tools PR
+├─ receipt-renderer   ─── [Target] Show HN + Live Web Playground Showcase
+└─ local-first-kernel ─── [Target] P2P Local Wi-Fi CRDT Sync Extension
+```
 
 ---
 
